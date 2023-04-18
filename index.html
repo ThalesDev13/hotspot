@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer login em Wi-Fi BH (Gratuito)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <menu>
+            <p>POR | ENG | ESP</p>
+        </menu>
+        <img src="wifi.png" alt="">
+        <h1>INTERNET GRATUITA</h1>
+    </header>
+
+    <main>
+        <article>
+            <form action="cadastro.php" method="post">
+                <p>Este é um serviço gratuito de acesso
+                    a Internet disponível em todos os <br>
+                    Hotspots públicos da Prefeitura de Belo
+                    Horizonte. Informe seu Cpf e Nome para
+                    se conectar:
+                </p>
+
+                <p>
+                    <label for="icpf">CPF</label> <br>
+                    <input type="number" name="cpf" id="icpf" required min="10" max="12" webk>
+                </p>
+
+                <p>
+                    <label for="inome">Nome</label> <br>
+                    <input type="text" name="nome" id="inome" required>
+                </p>
+
+                <p>
+                    <label for="iuso">Eu confirmo serem verdadeiros os
+                        dados fornecidos e concordo com os <br>
+                        TERMOS DE USO.
+                    </label>
+                    <input type="checkbox" name="uso" id="iuso" required>
+                </p>
+
+                <p>
+                    <label for="isou">Sou Estrangeiro</label>
+                    <input type="checkbox" name="sou" id="isou">
+                </p>
+
+                <p>
+                    <input type="submit" value="CONECTAR" id="env"> <br>
+                    <input type="reset" value="CRITÉRIOS DE ACESSO" id="lim">
+                </p>
+            </form>
+        </article>
+        <img class="marca" src="marca.png" alt="">
+    </main>
+
+    <footer>
+        <p>Versão 1.4.2</p>
+    </footer>
+</body>
+</html>
