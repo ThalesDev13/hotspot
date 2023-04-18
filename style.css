@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     font-family:  sans-serif;
     
+    
 }
 
 menu{
@@ -44,12 +45,17 @@ input[type="number"]::-webkit-inner-spin-button {
 
 form{
     background-color: rgba(254, 255, 190, 0.911);
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 30px;
     margin: 50px;
     background-position: 50%;
     position: relative;
     left: 250px;
+    max-width: 600px;
+}
+
+p form{
+    padding: 20px;
 }
 
 #env{
@@ -94,5 +100,9 @@ img.marca{
 
 footer{
     color: white;
-    width: 400px;
+    font-size: 20px;
+    position: relative;
+    left: 580px;
+    top: 41px;
+    display: inline-block;
 }
